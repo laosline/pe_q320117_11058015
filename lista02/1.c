@@ -9,10 +9,7 @@ int teste ( int n)
 }
 
 int main (){
-	int n, x;
-	printf("Digite um valor inteiro: \n");
+	int n;
 	scanf("%d", &n);
-	
-	x=teste(n);
-	printf("%d \n", x);
+	printf("%d\n", teste(n));
 }
