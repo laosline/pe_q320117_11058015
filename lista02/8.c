@@ -45,5 +45,5 @@ double salario (int cargo, int f, int h)
 main(){
 	int cargo, faltas, horas_extras;
 	scanf("%d %d %d", &cargo, &faltas, &horas_extras);
-	printf("%.0lf", salario(cargo,faltas,horas_extras));
+	printf("%.0lf\n", salario(cargo,faltas,horas_extras));
 }
