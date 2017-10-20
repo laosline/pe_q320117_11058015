@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int fibMem[1000];
+int fibMem[1000]={0};
 	
 int fib (int n)
 {
